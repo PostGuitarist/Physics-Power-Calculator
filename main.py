@@ -38,13 +38,13 @@ print("1 - Mass Solver | 2 - Force Solver | 3 - Work Solver | 4 - Power Solver |
 user_selection = int(input("Please type the number of what equation you want to use: "))
 if user_selection == 1:
 	mass_solver()
-if user_selection == 2:
+elif user_selection == 2:
 	force_solver()
-if user_selection == 3:
+elif user_selection == 3:
 	work_solver()
-if user_selection == 4:
+elif user_selection == 4:
 	power_solver()
-if user_selection == 5:
+elif user_selection == 5:
 	watt_horsepower()
 else:
 	print("Not an available selection.")
